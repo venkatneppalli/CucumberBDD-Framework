@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ExecutionRepo.RunCucumberTest" time="13.301" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Workspace_complete\CucumberBDD-Framework\target\test-classes;D:\Workspace_complete\CucumberBDD-Framework\target\classes;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-java\4.2.3\cucumber-java-4.2.3.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-core\4.2.3\cucumber-core-4.2.3.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\nepallve\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\nepallve\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-expressions\6.2.0\cucumber-expressions-6.2.0.jar;C:\Users\nepallve\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\nepallve\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-junit\4.2.3\cucumber-junit-4.2.3.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\nepallve\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nepallve\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nepallve\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nepallve\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nepallve\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nepallve\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nepallve\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nepallve\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nepallve\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\nepallve\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\nepallve\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\nepallve\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nepallve\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nepallve\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\nepallve\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\nepallve\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nepallve\.m2\repository\com\sun\mail\javax.mail\1.5.5\javax.mail-1.5.5.jar;C:\Users\nepallve\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\nepallve\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\nepallve\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\nepallve\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\nepallve\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\nepallve\AppData\Local\Temp\surefire2318741733547767954\surefirebooter5077463326515172305.jar C:\Users\nepallve\AppData\Local\Temp\surefire2318741733547767954 2020-08-26T21-50-49_772-jvmRun1 surefire6473465536359961267tmp surefire_03711039278107036065tmp"/>
+    <property name="surefire.test.class.path" value="D:\Workspace_complete\CucumberBDD-Framework\target\test-classes;D:\Workspace_complete\CucumberBDD-Framework\target\classes;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-java\4.2.3\cucumber-java-4.2.3.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-core\4.2.3\cucumber-core-4.2.3.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\nepallve\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\nepallve\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-expressions\6.2.0\cucumber-expressions-6.2.0.jar;C:\Users\nepallve\.m2\repository\io\cucumber\datatable\1.1.12\datatable-1.1.12.jar;C:\Users\nepallve\.m2\repository\io\cucumber\datatable-dependencies\1.1.12\datatable-dependencies-1.1.12.jar;C:\Users\nepallve\.m2\repository\io\cucumber\cucumber-junit\4.2.3\cucumber-junit-4.2.3.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\nepallve\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\nepallve\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nepallve\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nepallve\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nepallve\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\nepallve\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nepallve\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nepallve\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nepallve\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nepallve\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\nepallve\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\nepallve\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\nepallve\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\nepallve\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\nepallve\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\nepallve\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\nepallve\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\nepallve\.m2\repository\com\sun\mail\javax.mail\1.5.5\javax.mail-1.5.5.jar;C:\Users\nepallve\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\nepallve\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\nepallve\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\nepallve\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\nepallve\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\nepallve\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\nepallve\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nepallve"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="basedir" value="D:\Workspace_complete\CucumberBDD-Framework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\nepallve\AppData\Local\Temp\surefire2318741733547767954\surefirebooter5077463326515172305.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="user.name" value="nepallve"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\nepallve\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\nepallve\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="user.dir" value="D:\Workspace_complete\CucumberBDD-Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;D:\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;D:\gradle-6.4\bin;C:\Users\nepallve\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\nepallve\AppData\Local\Programs\Python\Python38-32\;C:\Users\nepallve\AppData\Local\Microsoft\WindowsApps;D:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_241\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\bin;;C:\Users\nepallve\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nepallve\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Verify that user is able to login into MAH" classname="As a UserAdmin user I want to verify that booking a hotel application" time="3.577">
+    <error message="unknown error: Failed to create Chrome process.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;HYDLPT-1XQEDP&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: CreateDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004787E3+2852835]&#10;	Ordinal0 [0x00365BB1+1727409]&#10;	Ordinal0 [0x0023E4B9+517305]&#10;	Ordinal0 [0x001CD576+54646]&#10;	Ordinal0 [0x001ED9F7+186871]&#10;	Ordinal0 [0x001ED7FD+186365]&#10;	Ordinal0 [0x001EB70B+177931]&#10;	Ordinal0 [0x001D2584+75140]&#10;	Ordinal0 [0x001D3650+79440]&#10;	Ordinal0 [0x001D35E9+79337]&#10;	Ordinal0 [0x0037AD5C+1813852]&#10;	GetHandleVerifier [0x0059C616+1075574]&#10;	GetHandleVerifier [0x0059C367+1074887]&#10;	GetHandleVerifier [0x005A7497+1120247]&#10;	GetHandleVerifier [0x0059CC16+1077110]&#10;	Ordinal0 [0x00373206+1782278]&#10;	Ordinal0 [0x0037C3BB+1819579]&#10;	Ordinal0 [0x0037C523+1819939]&#10;	Ordinal0 [0x00392B45+1911621]&#10;	BaseThreadInitThunk [0x75466359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77957C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+</error>
+    <system-err><![CDATA[WARNING: Found tags option '~@skip-test'. Support for '~@tag' will be removed from the next release of Cucumber-JVM. Please use 'not @tag' instead.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 6679
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="Search Hotel Application with location type as London" classname="As a UserAdmin user I want to verify that booking a hotel application" time="2.584">
+    <error message="unknown error: Failed to create Chrome process.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;HYDLPT-1XQEDP&apos;, ip: &apos;192.168.1.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: CreateDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x004787E3+2852835]&#10;	Ordinal0 [0x00365BB1+1727409]&#10;	Ordinal0 [0x0023E4B9+517305]&#10;	Ordinal0 [0x001CD576+54646]&#10;	Ordinal0 [0x001ED9F7+186871]&#10;	Ordinal0 [0x001ED7FD+186365]&#10;	Ordinal0 [0x001EB70B+177931]&#10;	Ordinal0 [0x001D2584+75140]&#10;	Ordinal0 [0x001D3650+79440]&#10;	Ordinal0 [0x001D35E9+79337]&#10;	Ordinal0 [0x0037AD5C+1813852]&#10;	GetHandleVerifier [0x0059C616+1075574]&#10;	GetHandleVerifier [0x0059C367+1074887]&#10;	GetHandleVerifier [0x005A7497+1120247]&#10;	GetHandleVerifier [0x0059CC16+1077110]&#10;	Ordinal0 [0x00373206+1782278]&#10;	Ordinal0 [0x0037C3BB+1819579]&#10;	Ordinal0 [0x0037C523+1819939]&#10;	Ordinal0 [0x00392B45+1911621]&#10;	BaseThreadInitThunk [0x75466359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77957C24+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 36427
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="ExecutionRepo.RunCucumberTest" classname="ExecutionRepo.RunCucumberTest" time="9.373">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ExecutionRepo.RunCucumberTest.testMethod(RunCucumberTest.java:30)
+</error>
+    <system-out><![CDATA[Feature: As a UserAdmin user I want to verify that booking a hotel application
+
+  @Regression1 @Login
+  Scenario: Verify that user is able to login into MAH # src/test/resources/features/SmokeTests/SearchHotel.feature:4
+      org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at DriverRepo.WebDriverFactory.createNewWebDriver(WebDriverFactory.java:86)
+	at DriverRepo.CreateDriver.initConfig(CreateDriver.java:59)
+	at DriverRepo.CreateDriver.<init>(CreateDriver.java:22)
+	at DriverRepo.CreateDriver.getInstance(CreateDriver.java:32)
+	at ExecutionRepo.Hooks.initDriver(Hooks.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:41)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+    Given user login to HotelApp with "UserAdmin" role # LoginSteps.user_login_to_HotelApp_with_UserAdmin_role(String)
+
+  @Regression1 @TC001
+  Scenario: Search Hotel Application with location type as London         # src/test/resources/features/SmokeTests/SearchHotel.feature:9
+      org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at DriverRepo.WebDriverFactory.createNewWebDriver(WebDriverFactory.java:86)
+	at DriverRepo.CreateDriver.initConfig(CreateDriver.java:59)
+	at DriverRepo.CreateDriver.<init>(CreateDriver.java:22)
+	at DriverRepo.CreateDriver.getInstance(CreateDriver.java:32)
+	at ExecutionRepo.Hooks.initDriver(Hooks.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:41)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+    Then user fills all mandatory fields of customer with SearchData data # HotelApplicationSteps.fillSearchDataTable(DataTable)
+    Then user clicks on button "Search_button" in "SearchHotelPage" page  # ClickSteps.clickOnSaveButton(String,String)
+
+Failed scenarios:
+src/test/resources/features/SmokeTests/SearchHotel.feature:4 # Verify that user is able to login into MAH
+src/test/resources/features/SmokeTests/SearchHotel.feature:9 # Search Hotel Application with location type as London
+
+2 Scenarios (2 failed)
+3 Steps (3 skipped)
+0m6.313s
+
+org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at DriverRepo.WebDriverFactory.createNewWebDriver(WebDriverFactory.java:86)
+	at DriverRepo.CreateDriver.initConfig(CreateDriver.java:59)
+	at DriverRepo.CreateDriver.<init>(CreateDriver.java:22)
+	at DriverRepo.CreateDriver.getInstance(CreateDriver.java:32)
+	at ExecutionRepo.Hooks.initDriver(Hooks.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:41)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+org.openqa.selenium.WebDriverException: unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at DriverRepo.WebDriverFactory.createNewWebDriver(WebDriverFactory.java:86)
+	at DriverRepo.CreateDriver.initConfig(CreateDriver.java:59)
+	at DriverRepo.CreateDriver.<init>(CreateDriver.java:22)
+	at DriverRepo.CreateDriver.getInstance(CreateDriver.java:32)
+	at ExecutionRepo.Hooks.initDriver(Hooks.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:49)
+	at cucumber.runner.TestCase.run(TestCase.java:41)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:122)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:64)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:131)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+
+after class
+Please find the execution result under: src/test/resources/Test_Results/ResultSheet_2020_8_26_21_50_57.html
+Email sent.
+]]></system-out>
+  </testcase>
+</testsuite>

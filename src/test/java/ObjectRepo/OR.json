@@ -1,0 +1,102 @@
+{
+	"FourModules_Menu": {
+		"CD_IELTS_Menu_Link": {
+			"PropertyType": "LinkText",
+			"ControlProperty": "CD-IELTS"
+		},
+		"PTE_Menu_Link": {
+			"PropertyType": "LinkText",
+			"ControlProperty": "PTE"
+		},
+		"CELPIP_Menu_Link": {
+			"PropertyType": "LinkText",
+			"ControlProperty": "CELPIP"
+		},
+		"CAEL_Menu_Link": {
+			"PropertyType": "LinkText",
+			"ControlProperty": "CAEL"
+		},
+		"AnyQuestions_button": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//span[contains(text(),'Any Questions?')]"
+		},
+		"close_icon": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//button[@class='close'][@type='button']"
+		},
+		"How_can_we_help": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//h5[@id='exampleModalLabel']"
+		},
+		"Take_Demo": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//span[contains(text(),'Take Demo')]"
+		}
+	},
+	"SpiceJet_Page": {
+		"SpiceJet_Menu": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//div[@id='buttons']"
+		},
+		"radio_buttons": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "table[id$='_mainContent_rbtnl_Trip']"
+		},
+		"1Adult_textbox": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//div[@id='divpaxinfo']"
+		},
+		"4Infants_textbox": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "select[id$='_mainContent_ddl_Infant']"
+		},
+		"OneWay_radio_button": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "input[id^='ctl00_mainContent_rbtnl_Trip_0']"
+		},
+		"Book_menu_header": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "//a[@id='highlight-book']"
+		},
+		"Flights_sub_menu": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "a[title^='Flights']"
+		},
+		"From_textbox": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//a[contains(text(),'Agra (AGR)')]"
+		},
+		"To_textbox": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//li[@class='city_selected ']//a[@value='JAI'][normalize-space()='Jaipur (JAI)']"
+		},
+		"DepartDate_textbox": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//input[@id='ctl00_mainContent_view_date1']"
+		},
+		"Passengers_date": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "div[id^='divpaxinfo']"
+		},
+		"Currency_USD": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//select[@id='ctl00_mainContent_DropDownListCurrency']"
+		},
+		"Search_icon": {
+			"PropertyType": "CssSelector",
+			"ControlProperty": "input[id^='ctl00_mainContent_btn_FindFlights']"
+		},
+		"Family_And_Friends_checkbox": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//input[@id='ctl00_mainContent_chk_friendsandfamily']"
+		},
+		"Modify_Search": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//span[@class='trip-modify-btn']"
+		},
+		"Go_CTA_button": {
+			"PropertyType": "Xpath",
+			"ControlProperty": "//input[@id='AvailabilitySearchInputSelectView_ButtonSubmit']"
+		}
+	}
+}

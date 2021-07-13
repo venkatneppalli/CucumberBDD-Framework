@@ -1,0 +1,70 @@
+-------------------------------------------------------------------------------
+Test set: ExecutionRepo.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 13.301 s <<< FAILURE! - in ExecutionRepo.RunCucumberTest
+Verify that user is able to login into MAH(As a UserAdmin user I want to verify that booking a hotel application)  Time elapsed: 3.577 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+
+Search Hotel Application with location type as London(As a UserAdmin user I want to verify that booking a hotel application)  Time elapsed: 2.584 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: Failed to create Chrome process.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HYDLPT-1XQEDP', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: CreateDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x004787E3+2852835]
+	Ordinal0 [0x00365BB1+1727409]
+	Ordinal0 [0x0023E4B9+517305]
+	Ordinal0 [0x001CD576+54646]
+	Ordinal0 [0x001ED9F7+186871]
+	Ordinal0 [0x001ED7FD+186365]
+	Ordinal0 [0x001EB70B+177931]
+	Ordinal0 [0x001D2584+75140]
+	Ordinal0 [0x001D3650+79440]
+	Ordinal0 [0x001D35E9+79337]
+	Ordinal0 [0x0037AD5C+1813852]
+	GetHandleVerifier [0x0059C616+1075574]
+	GetHandleVerifier [0x0059C367+1074887]
+	GetHandleVerifier [0x005A7497+1120247]
+	GetHandleVerifier [0x0059CC16+1077110]
+	Ordinal0 [0x00373206+1782278]
+	Ordinal0 [0x0037C3BB+1819579]
+	Ordinal0 [0x0037C523+1819939]
+	Ordinal0 [0x00392B45+1911621]
+	BaseThreadInitThunk [0x75466359+25]
+	RtlGetAppContainerNamedObjectPath [0x77957C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77957BF4+180]
+
+
+ExecutionRepo.RunCucumberTest  Time elapsed: 9.373 s  <<< ERROR!
+java.lang.NullPointerException
+	at ExecutionRepo.RunCucumberTest.testMethod(RunCucumberTest.java:30)
+

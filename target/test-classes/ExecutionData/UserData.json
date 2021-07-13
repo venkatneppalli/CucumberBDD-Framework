@@ -1,0 +1,23 @@
+[
+	{
+		"Environment": "Test",
+		"UserRole": "",
+		"UserName": "",
+		"Password": ""
+	},
+	{
+		"Environment": "Qa",
+		"UserRole": "fourmoduleAdmin"
+		
+	},
+	{
+		"Environment": "Qa",
+		"UserRole": "spicejetAdmin"
+	},
+	{
+		"Environment": "Prod",
+		"UserRole": "",
+		"UserName": "",
+		"Password": ""
+	}
+]

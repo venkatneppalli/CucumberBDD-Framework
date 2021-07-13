@@ -1,0 +1,10 @@
+[
+	{
+		"Environment": "QA",
+		"Url1": "https://www.fourmodules.com/"
+	},
+	{
+		"Environment": "QA",
+		"Url2": "https://www.spicejet.com/"
+	}
+]

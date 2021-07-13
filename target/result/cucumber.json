@@ -1,0 +1,725 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1896800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4619800200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2050999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.handlePopup()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Print fourmodules menu options",
+        "description": "",
+        "id": "automating-fourmodules-test-scenarios;print-fourmodules-menu-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9262455400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6022817200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 50,
+            "name": "user navigate to with \"spicejetAdmin\" role",
+            "match": {
+              "arguments": [
+                {
+                  "val": "spicejetAdmin",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginSteps.navigateURL(String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 77400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 456700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18267504700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6026615100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 51,
+            "name": "I select \"OneWay_radio_button\" radio button on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OneWay_radio_button",
+                  "offset": 10
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 48
+                }
+              ],
+              "location": "ClickSteps.i_select_radio_button_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 154800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1461600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5078070100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6011894100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 52,
+            "name": "I select \"Book_menu_header\" tab on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Book_menu_header",
+                  "offset": 10
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 36
+                }
+              ],
+              "location": "ClickSteps.i_select_tab_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 70900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1016700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117214000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6025888200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "I select \"Flights_sub_menu\" on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flights_sub_menu",
+                  "offset": 10
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 32
+                }
+              ],
+              "location": "ClickSteps.i_select_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 100500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78554900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6015347000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "I select oneway radio \"OneWay_radio_button\" on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OneWay_radio_button",
+                  "offset": 23
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 48
+                }
+              ],
+              "location": "ClickSteps.i_select_on_page_oneway(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 124300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1141000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10667007100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6016507200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "I select Agra_textbox departure city in the \"From_textbox\" field on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "From_textbox",
+                  "offset": 45
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 69
+                }
+              ],
+              "location": "ClickSteps.i_select_departure_city_in_the_field_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 134200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1131100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20676501200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6023024500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "I select Jaipur_textbox arrival city in the \"To_textbox\" field on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "To_textbox",
+                  "offset": 45
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 67
+                }
+              ],
+              "location": "ClickSteps.i_select_arrival_city_in_the_field_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 138100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1304300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10721744600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6020835600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 57,
+            "name": "I select any date in the \"DepartDate_textbox\" field on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DepartDate_textbox",
+                  "offset": 26
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 56
+                }
+              ],
+              "location": "ClickSteps.i_select_any_date_in_the_field_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 83900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 951800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20418486200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6022067200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I select \"Passengers_date\" from 2Adults dropdown on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Passengers_date",
+                  "offset": 10
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 53
+                }
+              ],
+              "location": "ClickSteps.i_select_from_2Adults_dropdown_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 65000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 799400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20558339500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6027416000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I select \"Currency_USD\" from the Currency dropdown on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency_USD",
+                  "offset": 10
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 55
+                }
+              ],
+              "location": "ClickSteps.i_select_from_the_Currency_dropdown_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 113400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1122400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15064649900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6016316300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "I click on \"Search_icon\" CTA button on \"SpiceJet_Page\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search_icon",
+                  "offset": 12
+                },
+                {
+                  "val": "SpiceJet_Page",
+                  "offset": 40
+                }
+              ],
+              "location": "ClickSteps.i_click_on_CTA_button_on_page(String,String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 79900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 715600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20016600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6013640500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "Redirect me to book_url",
+            "match": {
+              "location": "VerifySteps.redirect_me_to()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 140900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1072400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7531500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 6021514600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.beforeStep()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "Verify the user has advanced to the next page by printing to Console the URL",
+            "match": {
+              "location": "VerifySteps.verify_the_user_has_advanced_to_the_next_page_by_printing_to_Console_the_URL()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 103100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.embedScreenshot(Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 843300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.passScreenshot(Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression1"
+          },
+          {
+            "name": "@verifySpiceJetBook2Adults"
+          }
+        ]
+      }
+    ],
+    "name": "automating fourmodules test scenarios",
+    "description": "",
+    "id": "automating-fourmodules-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SmokeTests/SDET_TechnicalTest.feature",
+    "tags": []
+  }
+]

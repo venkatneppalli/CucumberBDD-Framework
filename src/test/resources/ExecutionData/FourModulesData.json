@@ -1,0 +1,14 @@
+{
+	"FourModulesDataDetails": {
+		"FourModules_Menu": {
+			"AboutURL": "https://www.fourmodules.com/ielts",
+			"AnyQuestions": "Hotel Creek",
+			"RoomType_dropdown": "Standard",
+			"RoonNumbers_dropdown": "1 - One",
+			"CheckInDate_textbox": "15/08/2020",
+			"CheckOutDate_textbox": "16/08/2020",
+			"AdultPerRoom_textbox": "1 - One",
+			"ChildrenPerRoom_textbox": "0 - None"
+		}
+	}
+	}
